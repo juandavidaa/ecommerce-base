@@ -1,0 +1,19 @@
+{
+  "name": "rxjs",
+  "version": "1.0.0",
+  "main": "Observables.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.19.2",
+    "kafka-node": "^5.0.0",
+    "mysql2": "^3.11.0",
+    "rxjs": "^7.8.1"
+  }
+}
