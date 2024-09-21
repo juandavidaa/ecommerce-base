@@ -1,0 +1,330 @@
+2024-09-16 02:57:06 [INFO] (printf.js:11) - server running on port 3001
+2024-09-16 02:57:06 [INFO] (printf.js:11) - Kafka Producer connected
+2024-09-16 02:57:13 [ERROR] (printf.js:11) - Error sending event to kafka: Cannot set properties of undefined (setting 'res')
+2024-09-16 02:58:10 [INFO] (printf.js:11) - server running on port 3001
+2024-09-16 02:58:10 [INFO] (printf.js:11) - Kafka Producer connected
+2024-09-16 02:59:12 [INFO] (printf.js:11) - server running on port 3001
+2024-09-16 02:59:12 [INFO] (printf.js:11) - Kafka Producer connected
+2024-09-16 02:59:32 [INFO] (printf.js:11) - Message sent to getUsersObservable
+2024-09-16 02:59:36 [INFO] (printf.js:11) - get from consumerGetUsersObservable
+2024-09-16 02:59:36 [INFO] (printf.js:11) - Response get from caché: 1100000
+2024-09-16 03:02:14 [INFO] (printf.js:11) - server running on port 3001
+2024-09-16 03:02:15 [INFO] (printf.js:11) - Kafka Producer connected
+2024-09-16 03:02:17 [INFO] (printf.js:11) - Message sent to getUsersObservable
+2024-09-16 03:02:36 [INFO] (printf.js:11) - get from consumerGetUsersObservable
+2024-09-16 03:02:36 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersObservable: limite is not defined
+2024-09-16 03:10:28 [INFO] (printf.js:11) - Message sent to getUsersObservable
+2024-09-16 03:10:28 [INFO] (printf.js:11) - get from consumerGetUsersObservable
+2024-09-16 03:10:28 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersObservable: limite is not defined
+2024-09-16 03:11:22 [INFO] (printf.js:11) - server running on port 3001
+2024-09-16 03:11:22 [ERROR] (printf.js:11) - Error sending event to kafka: The producer is disconnected
+2024-09-16 03:11:22 [INFO] (printf.js:11) - Kafka Producer connected
+2024-09-16 03:12:07 [INFO] (printf.js:11) - Message sent to getUsersObservable
+2024-09-16 03:12:07 [INFO] (printf.js:11) - get from consumerGetUsersObservable
+2024-09-16 03:13:56 [INFO] (printf.js:11) - server running on port 3001
+2024-09-16 03:13:56 [INFO] (printf.js:11) - Kafka Producer connected
+2024-09-16 03:14:00 [ERROR] (printf.js:11) - Error sending event to kafka: The "string" argument must be of type string or an instance of Buffer or ArrayBuffer. Received type number (1000)
+2024-09-16 03:14:10 [ERROR] (printf.js:11) - Error sending event to kafka: The "string" argument must be of type string or an instance of Buffer or ArrayBuffer. Received type number (1000)
+2024-09-16 03:14:36 [INFO] (printf.js:11) - Message sent to getUsersObservable
+2024-09-16 03:14:36 [INFO] (printf.js:11) - get from consumerGetUsersObservable
+2024-09-16 03:16:03 [INFO] (printf.js:11) - server running on port 3001
+2024-09-16 03:16:03 [INFO] (printf.js:11) - Kafka Producer connected
+2024-09-16 03:16:06 [INFO] (printf.js:11) - Message sent to getUsersObservable
+2024-09-16 03:16:19 [INFO] (printf.js:11) - Message sent to getUsersObservable
+2024-09-16 03:16:27 [INFO] (printf.js:11) - get from consumerGetUsersObservable
+2024-09-16 03:16:27 [INFO] (printf.js:11) - get from consumerGetUsersObservable
+2024-09-16 03:17:19 [INFO] (printf.js:11) - server running on port 3001
+2024-09-16 03:17:19 [INFO] (printf.js:11) - Kafka Producer connected
+2024-09-16 03:17:19 [ERROR] (printf.js:11) - Error sending event to kafka: requestId is not defined
+2024-09-16 03:17:19 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:17:21 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:17:21 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot set headers after they are sent to the client
+2024-09-16 03:17:22 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:17:22 [ERROR] (printf.js:11) - Error sending event to kafka: requestId is not defined
+2024-09-16 03:17:24 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:17:24 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot set headers after they are sent to the client
+2024-09-16 03:17:32 [ERROR] (printf.js:11) - Error sending event to kafka: requestId is not defined
+2024-09-16 03:17:32 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:17:34 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:17:34 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot set headers after they are sent to the client
+2024-09-16 03:18:15 [INFO] (printf.js:11) - server running on port 3001
+2024-09-16 03:18:15 [INFO] (printf.js:11) - Kafka Producer connected
+2024-09-16 03:18:18 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:18:39 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:20:49 [INFO] (printf.js:11) - server running on port 3001
+2024-09-16 03:20:49 [INFO] (printf.js:11) - Kafka Producer connected
+2024-09-16 03:21:02 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:21:16 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:23:42 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:42 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:23:45 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:45 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:23:46 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:46 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:46 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:46 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:46 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:46 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:23:47 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:47 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:47 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:23:48 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:49 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:23:49 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:49 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:49 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:49 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:49 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:50 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:23:50 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:50 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:50 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:50 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:50 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:51 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:51 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:51 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:51 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:51 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:51 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:23:51 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:51 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:51 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:52 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:52 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:52 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:52 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:52 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:52 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:23:53 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:53 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:53 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:53 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:23:53 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:53 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:54 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:54 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:55 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:55 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:55 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:23:55 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:55 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:55 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:55 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:55 [INFO] (printf.js:11) - Message sent to getUsersPromise
+2024-09-16 03:23:56 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:23:57 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:23:57 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot set headers after they are sent to the client
+2024-09-16 03:23:57 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:23:58 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:23:58 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot set headers after they are sent to the client
+2024-09-16 03:23:58 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:23:59 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:23:59 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot set headers after they are sent to the client
+2024-09-16 03:23:59 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:24:01 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:24:01 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot set headers after they are sent to the client
+2024-09-16 03:24:01 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:24:02 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:24:02 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot set headers after they are sent to the client
+2024-09-16 03:24:02 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:24:03 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:24:03 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot set headers after they are sent to the client
+2024-09-16 03:24:03 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:24:04 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:24:04 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot set headers after they are sent to the client
+2024-09-16 03:24:04 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:24:05 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:24:05 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot set headers after they are sent to the client
+2024-09-16 03:24:05 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:24:06 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:24:06 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot set headers after they are sent to the client
+2024-09-16 03:24:06 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:24:07 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:24:07 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot set headers after they are sent to the client
+2024-09-16 03:24:07 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:24:09 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:24:09 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot set headers after they are sent to the client
+2024-09-16 03:24:09 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:24:10 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:24:10 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot set headers after they are sent to the client
+2024-09-16 03:24:10 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:24:11 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:24:11 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot set headers after they are sent to the client
+2024-09-16 03:24:11 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:24:12 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:24:12 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot set headers after they are sent to the client
+2024-09-16 03:24:12 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:24:13 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:24:13 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot set headers after they are sent to the client
+2024-09-16 03:24:13 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:24:15 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:24:15 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot set headers after they are sent to the client
+2024-09-16 03:24:15 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:24:16 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:24:16 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot set headers after they are sent to the client
+2024-09-16 03:24:16 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:24:16 [INFO] (printf.js:11) - Message sent to getUsersObservable
+2024-09-16 03:24:16 [INFO] (printf.js:11) - get from consumerGetUsersObservable
+2024-09-16 03:24:17 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:24:54 [INFO] (printf.js:11) - server running on port 3001
+2024-09-16 03:24:54 [INFO] (printf.js:11) - Kafka Producer connected
+2024-09-16 03:24:54 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:24:55 [INFO] (printf.js:11) - Message sent to getUsersObservable
+2024-09-16 03:24:55 [INFO] (printf.js:11) - get from consumerGetUsersObservable
+2024-09-16 03:24:56 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:25:16 [INFO] (printf.js:11) - server running on port 3001
+2024-09-16 03:25:16 [INFO] (printf.js:11) - Kafka Producer connected
+2024-09-16 03:25:19 [INFO] (printf.js:11) - Message sent to getUsersObservable
+2024-09-16 03:25:24 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:25:26 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:25:26 [INFO] (printf.js:11) - get from consumerGetUsersObservable
+2024-09-16 03:25:27 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:25:27 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot set headers after they are sent to the client
+2024-09-16 03:25:27 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:25:50 [INFO] (printf.js:11) - server running on port 3001
+2024-09-16 03:25:50 [INFO] (printf.js:11) - Kafka Producer connected
+2024-09-16 03:25:56 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:25:57 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:25:57 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:25:57 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:25:58 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:25:58 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:25:58 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:25:59 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:25:59 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:25:59 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:00 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:00 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:00 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:01 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:01 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:01 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:02 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:02 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:02 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:03 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:03 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:03 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:04 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:04 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:04 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:05 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:05 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:05 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:05 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:05 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:05 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:06 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:07 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:07 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:07 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:07 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:07 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:08 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:08 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:08 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:09 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:09 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:09 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:11 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:11 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:11 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:12 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:12 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:12 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:13 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:13 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:13 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:15 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:15 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:15 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:16 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:16 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:16 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:17 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:17 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:17 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:19 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:19 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:19 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:20 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:20 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:20 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:21 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:21 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:21 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:23 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:23 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:23 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:24 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:24 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:24 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:25 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:25 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:25 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:27 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:27 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:27 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:28 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:28 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:28 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:29 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:29 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:29 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:30 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:30 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:30 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:32 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:32 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:32 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:33 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:33 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:33 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:34 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:34 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:34 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:35 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:35 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:35 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:36 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:36 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:36 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:38 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:38 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:38 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:39 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:39 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:39 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:40 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:40 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:40 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:41 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:41 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:26:41 [INFO] (printf.js:11) - get from consumerGetUsersPromise
+2024-09-16 03:26:42 [ERROR] (printf.js:11) - Error promise query users:
+2024-09-16 03:26:42 [ERROR] (printf.js:11) - Error procesando mensaje de getUsersPromise: Cannot read properties of null (reading 'status')
+2024-09-16 03:31:06 [INFO] (printf.js:11) - Message sent to getUsersObservable
+2024-09-16 03:31:06 [INFO] (printf.js:11) - get from consumerGetUsersObservable
+2024-09-16 03:31:06 [INFO] (printf.js:11) - Message sent to getUsersObservable
+2024-09-16 03:31:06 [INFO] (printf.js:11) - get from consumerGetUsersObservable
+2024-09-16 03:31:06 [INFO] (printf.js:11) - Message sent to getUsersObservable
+2024-09-16 03:31:06 [INFO] (printf.js:11) - get from consumerGetUsersObservable
+2024-09-16 03:31:07 [INFO] (printf.js:11) - Message sent to getUsersObservable
+2024-09-16 03:31:07 [INFO] (printf.js:11) - get from consumerGetUsersObservable
+2024-09-16 03:31:07 [INFO] (printf.js:11) - Message sent to getUsersObservable
+2024-09-16 03:31:07 [INFO] (printf.js:11) - get from consumerGetUsersObservable
+2024-09-16 03:31:07 [INFO] (printf.js:11) - Message sent to getUsersObservable
+2024-09-16 03:31:07 [INFO] (printf.js:11) - get from consumerGetUsersObservable
+2024-09-16 03:31:07 [INFO] (printf.js:11) - Message sent to getUsersObservable
+2024-09-16 03:31:07 [INFO] (printf.js:11) - get from consumerGetUsersObservable
+2024-09-16 03:31:07 [INFO] (printf.js:11) - Message sent to getUsersObservable
+2024-09-16 03:31:07 [INFO] (printf.js:11) - get from consumerGetUsersObservable
+2024-09-16 03:31:07 [INFO] (printf.js:11) - Message sent to getUsersObservable
+2024-09-16 03:31:07 [INFO] (printf.js:11) - get from consumerGetUsersObservable
+2024-09-16 03:31:08 [INFO] (printf.js:11) - Message sent to getUsersObservable
+2024-09-16 03:31:08 [INFO] (printf.js:11) - get from consumerGetUsersObservable
+2024-09-16 03:31:08 [INFO] (printf.js:11) - Message sent to getUsersObservable
+2024-09-16 03:31:08 [INFO] (printf.js:11) - get from consumerGetUsersObservable
+2024-09-16 03:31:08 [INFO] (printf.js:11) - Message sent to getUsersObservable
+2024-09-16 03:31:08 [INFO] (printf.js:11) - get from consumerGetUsersObservable

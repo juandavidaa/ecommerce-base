@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\Angela\\Desktop\\Juan David\\Study\\Rxjs\\app\\utils\\logs\\.55c7fbebd6a5c0e12ab8d5c05e5438eef295faf1-audit.json",
+    "files": [
+        {
+            "date": 1726473230782,
+            "name": "C:\\Users\\Angela\\Desktop\\Juan David\\Study\\Rxjs\\app\\utils\\logs\\application-2024-09-16.log",
+            "hash": "d7e15668d7498046926be9bad7523a633644d3d4c3358b816d83f63ed898588d"
+        }
+    ],
+    "hashType": "sha256"
+}

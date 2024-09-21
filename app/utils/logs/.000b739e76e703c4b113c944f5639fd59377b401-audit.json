@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\Angela\\Desktop\\Juan David\\Study\\Rxjs\\utils\\logs\\.000b739e76e703c4b113c944f5639fd59377b401-audit.json",
+    "files": [
+        {
+            "date": 1726350061672,
+            "name": "C:\\Users\\Angela\\Desktop\\Juan David\\Study\\Rxjs\\utils\\logs\\application-2024-09-14.log",
+            "hash": "6065add58b9bcaeb5a1d1d95423ba81cf424392b0261e8dc869c7d3f819cc4c0"
+        },
+        {
+            "date": 1726443424205,
+            "name": "C:\\Users\\Angela\\Desktop\\Juan David\\Study\\Rxjs\\utils\\logs\\application-2024-09-15.log",
+            "hash": "001fc24089f4b6df6f47d61d29617b537924e5d7b19573e0beac3b4817d41cfd"
+        }
+    ],
+    "hashType": "sha256"
+}

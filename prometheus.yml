@@ -1,13 +1,7 @@
 global:
-  scrape_interval: 15s # Intervalo global para obtener métricas (cada 15 segundos)
+  scrape_interval: 15s
 
 scrape_configs:
-  # Monitorear Prometheus
-  - job_name: 'prometheus'
-    static_configs:
-      - targets: ['localhost:9090']
-
-  # Monitorear Kafka usando el exporter JMX
   - job_name: 'kafka'
     static_configs:
-      - targets: ['localhost:7071']  # Puerto en el que corre el Kafka JMX exporter
+      - targets: ['kafka-exporter:9308']
