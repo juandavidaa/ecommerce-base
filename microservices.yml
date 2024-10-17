@@ -1,0 +1,21 @@
+services:
+    user:
+        port: 3001
+        routes:
+            - path: /users
+    admin:
+        port: 3002
+        routes:
+            - path: /admin
+    order:
+        port: 3003
+        routes:
+            - path: /orders
+    product:
+        port: 3004
+        routes:
+            - path: /products
+    sale:
+        port: 3005
+        routes:
+            - path: /sales

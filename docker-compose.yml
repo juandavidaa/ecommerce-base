@@ -1,54 +1,53 @@
-version: '3'
+version: '3.8'
 
 services:
-  redis:
-    image: redis:latest
-    container_name: redis
-    ports:
-      - "6379:6379"
-    volumes:
-      - redis-data:/data
-    environment:
-      - REDIS_PASSWORD=${REDIS_PASSWORD:-1234}
-  kafka:
-    build: ./kafka
-    container_name: kafka
-    environment:
-      - KAFKA_CFG_NODE_ID=0
-      - KAFKA_CFG_PROCESS_ROLES=broker,controller
-      - EXTERNAL_HOST=${EXTERNAL_HOST:-localhost}
-    ports:
-      - "9092:9092"
-      - "9093:9093"
-    volumes:
-      - kafka-data:/bitnami/kafka
-      - kafka-config:/bitnami/kafka/config
-  kafka-exporter:
-    build: ./kafka-exporter
-    ports:
-      - "9308:9308"
-    environment:
-      - KAFKA_SERVER=kafka:29092
-    depends_on:
-      - kafka
-  prometheus:
-    image: prom/prometheus:latest
-    ports:
-      - "9090:9090"
-    volumes:
-      - ./prometheus.yml:/etc/prometheus/prometheus.yml
-
-  grafana:
-    image: grafana/grafana:latest
-    ports:
-      - "3000:3000"
-    environment:
-      - GF_SECURITY_ADMIN_PASSWORD=admin
-    volumes:
-      - grafana-storage:/var/lib/grafana
+    redis:
+        image: redis:latest
+        container_name: redis
+        ports:
+            - "${REDIS_PORT}:${REDIS_PORT}"
+        volumes:
+            - redis-data:/data
+        environment:
+            - REDIS_PASSWORD=${REDIS_PASSWORD:-1234}
+    kafka:
+        build: ./platform/kafka
+        container_name: kafka
+        environment:
+            - KAFKA_PORT=${KAFKA_PORT:-9092}
+            - KAFKA_CONTROLLER_PORT=${KAFKA_CONTROLLER_PORT:-9093}
+            - KAFKA_CFG_NODE_ID=0
+            - KAFKA_CFG_PROCESS_ROLES=broker,controller
+        ports:
+            - "${KAFKA_CONTROLLER_PORT}:${KAFKA_CONTROLLER_PORT}"
+        volumes:
+            - kafka-data:/bitnami/kafka
+            - kafka-config:/bitnami/kafka/config
+    kafka-exporter:
+        build: ./platform/kafka-exporter
+        ports:
+            - "${KAFKA_PORT}:${KAFKA_PORT}"
+        environment:
+            - KAFKA_SERVER=kafka:9092
+        depends_on:
+            - kafka
+    prometheus:
+        image: prom/prometheus:latest
+        ports:
+            - "${PROMETHEUS_PORT}:${PROMETHEUS_PORT}"
+        volumes:
+            - ./platform/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+    grafana:
+        image: grafana/grafana:latest
+        ports:
+            - "${GRAFANA_PORT}:${GRAFANA_PORT}"
+        environment:
+            - GF_SECURITY_ADMIN_PASSWORD=${GRAFANA_ADMIN_PASSWORD}
+        volumes:
+            - grafana-storage:/var/lib/grafana
 
 volumes:
-  kafka-data:
-  grafana-storage:
-  kafka-config:
-  redis-data:
+    kafka-data:
+    grafana-storage:
+    kafka-config:
+    redis-data:

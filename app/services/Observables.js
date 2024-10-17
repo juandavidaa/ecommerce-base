@@ -9,6 +9,7 @@ import { redisClient } from "../utils/redisClient.js";
 // Environment variables
 import dotenv from "dotenv";
 dotenv.config();
+
 /**
  * handleUsers
  * @param {*} limit 
